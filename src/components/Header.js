@@ -35,7 +35,7 @@ const Header = () => {
                             <Switch
                                 checked={checked}
                                 onChange={handleThemeChange}
-                                offColor="#baaa80"
+                                offColor="#80afba"
                                 onColor="#353535"
                                 className="react-switch mx-auto"
                                 width={90}
