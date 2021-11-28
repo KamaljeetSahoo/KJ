@@ -1,21 +1,42 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Typical from 'react-typical'
-import { bounce } from 'react-animations';
+import { flip } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import Switch from "react-switch";
-import ProjectDetails from './ProjectDetails';
-// import Particles from 'react-particles-js';
 
 
 const Header = () => {
 
     const [checked, setChecked] = useState(false)
 
-    var titles = ['Kamaljeet', 'FULL STACK DEVELOPER', 'ML ENTHUSIAST']
+    var titles = ['Compiling👀👀👀']
     const HeaderTitleAnimation = React.memo( () => {
         return <Typical className="title-styles" steps={titles} loop={300} />
     }, (props, prevProps) => true);
 
+    function IconAnimation() {
+        useEffect(() => {
+          const timer = setInterval(() => {
+            if(currentClass < classIconNames.length - 1){
+                setCurrentClass( prevtime => prevtime + 1);
+            }
+            else {
+                setCurrentClass(0)
+            }
+          }, 1000);
+          return () => {
+            clearInterval(timer);
+          };
+        }, []);
+      
+        return (
+          <div><span className="iconify header-icon" data-icon={classIconNames[currentClass]} data-inline="false"></span></div>
+        );
+      }
+    
+    const [currentClass, setCurrentClass] = useState(2)
+    const classIconNames = ['bx:bx-user-pin', 'bx:bx-code-alt', 'bx:bx-code-curly', 'ant-design:code-outlined', 'eos-icons:neural-network', 'icon-park-outline:laptop-computer', 'carbon:load-balancer-network']
+    
 
     const handleThemeChange = () => {
         setChecked(!checked)
@@ -27,8 +48,8 @@ const Header = () => {
 
     const styles = {
         bounce: {
-          animation: 'x 1s',
-          animationName: Radium.keyframes(bounce, 'bounce'),
+          animation: 'x 1s infinite',
+          animationName: Radium.keyframes(flip, 'bounce'),
           display: 'inline-block',
           height: '100'
         }
@@ -42,74 +63,7 @@ const Header = () => {
                         <div>
                             <StyleRoot>
                                 <div style={styles.bounce}>
-                                    <span className="iconify header-icon" data-icon="carbon:user-activity" data-inline="false"></span>
-                                    {/* <div className="">
-                                        <Particles height="100%" width="100%"
-                                        params={{
-                                            "fps_limit": 10,
-                                            "particles": {
-                                                "collisions": {
-                                                    "enable": true
-                                                },
-                                                "number": {
-                                                    "value": 180,
-                                                    "density": {
-                                                        "enable": false
-                                                    }
-                                                },
-                                                "line_linked": {
-                                                    "enable": true,
-                                                    "distance": 30,
-                                                    "opacity": 0.4
-                                                },
-                                                "move": {
-                                                    "speed": 1
-                                                },
-                                                "opacity": {
-                                                    "anim": {
-                                                        "enable": true,
-                                                        "opacity_min": 0.05,
-                                                        "speed": 1,
-                                                        "sync": false
-                                                    },
-                                                    "value": 0.4
-                                                }
-                                            },
-                                            "polygon": {
-                                                "enable": true,
-                                                "scale": 0.5,
-                                                "type": "inline",
-                                                "move": {
-                                                    "radius": 10
-                                                },
-                                                "url": "shaolin.svg",
-                                                "inline": {
-                                                    "arrangement": "equidistant"
-                                                },
-                                                "draw": {
-                                                    "enable": true,
-                                                    "stroke": {
-                                                        "color": "rgba(0, 0, 0, .2)"
-                                                    }
-                                                }
-                                            },
-                                            "retina_detect": false,
-                                            "interactivity": {
-                                                "events": {
-                                                    "onhover": {
-                                                        "enable": true,
-                                                        "mode": "repulse"
-                                                    }
-                                                },
-                                                "modes": {
-                                                    "bubble": {
-                                                        "size": 6,
-                                                        "distance": 40
-                                                    }
-                                                }
-                                            }
-                                        }} />
-                                    </div> */}
+                                    <IconAnimation/>
                                 </div>
                             </StyleRoot>
                             <br/>
