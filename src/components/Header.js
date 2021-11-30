@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Typical from 'react-typical'
-import { flip } from 'react-animations';
+import { headShake } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import Switch from "react-switch";
 
@@ -49,7 +49,7 @@ const Header = () => {
     const styles = {
         bounce: {
           animation: 'x 1s infinite',
-          animationName: Radium.keyframes(flip, 'bounce'),
+          animationName: Radium.keyframes(headShake, 'bounce'),
           display: 'inline-block',
           height: '100'
         }

@@ -54,7 +54,15 @@ const Skills = () => {
           {
             "name": "Heroku",
             "class": "devicon-heroku-original"
-          }
+          },
+          {
+            "name": "Python",
+            "class": "devicon-python-plain"
+          },
+          {
+            "name": "Numpy",
+            "class": "devicon-numpy-original"
+          },
         ]
       }
 
