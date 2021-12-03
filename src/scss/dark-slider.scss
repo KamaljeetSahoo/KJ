@@ -3,7 +3,7 @@ $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #8C8C8C;
+$organic-arrow-color: #000000;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -120,7 +120,7 @@ $content-background-color: #8C8C8C;
     > video {
       height: 100%;
       top: 0;
-      left: 0;
+      left: auto;
     }
   }
   &__controls {
@@ -301,6 +301,7 @@ $content-background-color: #8C8C8C;
     height: var(--organic-arrow-height);
     position: relative;
     display: block;
+    box-shadow: #fff;
     transition: transform 0.2s ease-out 0.125s, opacity 0.2s ease-out;
     &:before,
     &:after {
