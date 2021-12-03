@@ -3,8 +3,8 @@ import ProjectDetails from './ProjectDetails'
 
 const projects_all = [
     {
-        "title": "Animal Shelter",
-        "startDate": "2020",
+        "title": "Text to Handwriting",
+        "startDate": "2021",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
           "images/cat.jpeg",

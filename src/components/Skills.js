@@ -63,24 +63,50 @@ const Skills = () => {
             "name": "Numpy",
             "class": "devicon-numpy-original"
           },
+          {
+            "name": "PyTorch",
+            "class": "iconify",
+            "data": "simple-icons:pytorch"
+          },
+          {
+            "name":"OpenCV",
+            "class": "iconify",
+            "data": "simple-icons:opencv"
+          }
         ]
       }
 
     const SkillListComponent = 
         skills_list["icons"].map((item, index) => {
+          if (item.class === 'iconify'){
             return (
-                <li className="list-inline-item mx-3" key={index}>
-                    <span>
-                        <div className="text-center skills-tile">
-                            <i className={item.class} style={{ fontSize: "220%" }}>
-                                <p className="text-center" style={{ fontSize: "30%", marginTop: "4px" }}>
-                                    {item.name}
-                                </p>
-                            </i>
-                        </div>
-                    </span>
-                </li>
-            )
+              <li className="list-inline-item mx-3" key={index}>
+                  <span>
+                      <div className="text-center skills-tile">
+                          <i className={item.class} data-icon={item.data} style={{ fontSize: "220%" }}/>
+                          <p className="text-center" style={{ fontSize: "60%", marginTop: "4px" }}>
+                              {item.name}
+                          </p>
+                      </div>
+                  </span>
+              </li>
+          )
+          }
+          else {
+            return (
+              <li className="list-inline-item mx-3" key={index}>
+                  <span>
+                      <div className="text-center skills-tile">
+                          <i className={item.class} style={{ fontSize: "220%" }}>
+                              <p className="text-center" style={{ fontSize: "30%", marginTop: "4px" }}>
+                                  {item.name}
+                              </p>
+                          </i>
+                      </div>
+                  </span>
+              </li>
+          )
+          }
         })
     
     
