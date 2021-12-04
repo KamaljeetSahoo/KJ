@@ -8,37 +8,34 @@ import Badge from "react-bootstrap/Badge";
 
 var experience = [
     {
-      "company": "Secondary Education",
-      "title": "DAV Public School",
-      "years": "10.2019 - present",
-      "mainTech": [
-        "Schooling"
-      ],
-      "technologies": [
-          'React',
-          'adsvads',
-          'adsvads',
-          'adsvads'
-      ]
-    },
-    {
-      "company": "Higher Secondary Education",
-      "title": "Ravenshaw University",
-      "years": "01.2018 - 09.2019",
-      "mainTech": [
-        "College"
-      ],
-      "technologies": []
-    },
-    {
         "company": "Graduation",
-        "title": "Ravenshaw University",
-        "years": "01.2018 - 09.2019",
+        "title": "National Institute of Technology(NIT), Rourkela",
+        "years": "2018 - Present",
         "mainTech": [
           "College"
         ],
         "technologies": []
-      }
+      },
+      {
+        "company": "Higher Secondary Education",
+        "title": "Ravenshaw University",
+        "years": "2016 - 2018",
+        "mainTech": [
+          "College"
+        ],
+        "technologies": []
+      },
+      {
+        "company": "Secondary Education",
+        "title": "DAV Public School, C.D.A., Sector-VI",
+        "years": "2003 - 2016",
+        "mainTech": [
+          "Schooling"
+        ],
+        "technologies": [
+            
+        ]
+      },
   ]
 
   var work = experience.map(function (work, i) {
