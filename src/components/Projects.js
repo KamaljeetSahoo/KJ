@@ -57,14 +57,18 @@ const projects_all = [
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Project Omniverse",
+        "startDate": "2021",
+        "description": "The Omniverse will act as a subsitute to retail shopping. The product is aimed to bridge the gap between the retail shopping experience and virtual one along with its challenges upto a level that hasn't been achieved yet.",
         "images": [
-          "images/cat.jpeg",
-          "images/cat.jpeg"
+          "images/Project-Omniverse/1.png",
+          "images/Project-Omniverse/2.png",
+          "images/Project-Omniverse/3.png",
+          "images/Project-Omniverse/4.png",
+          "images/Project-Omniverse/5.png",
+          "images/Project-Omniverse/6.png",
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/KamaljeetSahoo/Project-Omniverse",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -73,6 +77,18 @@ const projects_all = [
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
           }
         ]
       },
