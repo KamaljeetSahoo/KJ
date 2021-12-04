@@ -27,6 +27,36 @@ const projects_all = [
         ]
       },
       {
+        "title": "Project Aperture",
+        "startDate": "2021",
+        "description": "Project Aperture intends to provide an automated platform for the procedure of tagging and labelling the images by use of Image processing and Machine Learning to extract information from the images, using Convolutional Neural Networks and Natural Language Processing to generate labels and similar tags.",
+        "images": [
+          "images/Project-Aperture/Project-Aperture.png",
+          "images/Project-Aperture/1.png",
+          "images/Project-Aperture/2.png",
+          "images/Project-Aperture/3.png",
+          "images/Project-Aperture/4.png",
+          "images/Project-Aperture/5.png",
+          "images/Project-Aperture/6.png",
+          "images/Project-Aperture/7.png",
+        ],
+        "url": "https://github.com/KamaljeetSahoo/Project-Aperture",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-azure-plain-wordmark",
+            "name": "Microsoft Azure"
+          },
+        ]
+      },
+      {
         "title": "Photography",
         "startDate": "2018",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
