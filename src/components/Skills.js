@@ -56,12 +56,13 @@ const Skills = () => {
             "class": "devicon-heroku-original"
           },
           {
-            "name": "Python",
-            "class": "devicon-python-plain"
-          },
-          {
             "name": "Numpy",
             "class": "devicon-numpy-original"
+          },
+          {
+            "name": "Pandas",
+            "class": "iconify",
+            "data": "simple-icons:pandas"
           },
           {
             "name": "PyTorch",
@@ -72,6 +73,15 @@ const Skills = () => {
             "name":"OpenCV",
             "class": "iconify",
             "data": "simple-icons:opencv"
+          },
+          {
+            'name': "Jupyter",
+            "class": "devicon-jupyter-plain-wordmark"
+          },
+          {
+            "name": "Scikit Learn",
+            "class": "iconify",
+            "data": "simple-icons:scikitlearn"
           }
         ]
       }

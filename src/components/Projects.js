@@ -91,7 +91,7 @@ const Projects = () => {
                 <span className="portfolio-item d-block">
                     <div className="foto" onClick={() => ModalShow(p)}>
                         <div>
-                            <img src={p.images[0]} alt="images" height="230" style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}/>
+                            <img src={p.images[0]} alt="images" height="auto" width="100%" style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}/>
                             <span className="project-date">{p.startDate}</span>
                             <br/>
                             <p className="project-title-settings mt-3">
