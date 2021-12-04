@@ -93,27 +93,19 @@ const projects_all = [
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "April Tag Detector",
+        "startDate": "2021",
+        "description": "A web-based 36H11 Family April-Tag detector using your webcam",
         "images": [
-          "images/cat.jpeg",
-          "images/cat.jpeg"
+          "images/AprilTag-Detector/1.gif",
+          "images/AprilTag-Detector/2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/KamaljeetSahoo/AprilTag-Detector",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
         ]
       },
 ]
@@ -152,7 +144,7 @@ const Projects = () => {
 
     return (
         <section id="portfolio">
-            <div className="col-md-12">
+            <div className="col-md-12 container">
                 <h1 className="section-title" style={{ color: "black" }}>
                     <span>Projects</span>
                 </h1>
