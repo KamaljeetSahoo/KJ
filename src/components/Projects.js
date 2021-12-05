@@ -2,60 +2,6 @@ import React, {useState} from 'react'
 import ProjectDetails from './ProjectDetails'
 
 const projects_all = [
-    {
-        "title": "Text to Handwriting",
-        "startDate": "2021",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/cat.jpeg",
-          "images/cat.jpeg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Project Aperture",
-        "startDate": "2021",
-        "description": "Project Aperture intends to provide an automated platform for the procedure of tagging and labelling the images by use of Image processing and Machine Learning to extract information from the images, using Convolutional Neural Networks and Natural Language Processing to generate labels and similar tags.",
-        "images": [
-          "images/Project-Aperture/Project-Aperture.png",
-          "images/Project-Aperture/1.png",
-          "images/Project-Aperture/2.png",
-          "images/Project-Aperture/3.png",
-          "images/Project-Aperture/4.png",
-          "images/Project-Aperture/5.png",
-          "images/Project-Aperture/6.png",
-          "images/Project-Aperture/7.png",
-        ],
-        "url": "https://github.com/KamaljeetSahoo/Project-Aperture",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-django-plain",
-            "name": "Django"
-          },
-          {
-            "class": "devicon-azure-plain-wordmark",
-            "name": "Microsoft Azure"
-          },
-        ]
-      },
       {
         "title": "Project Omniverse",
         "startDate": "2021",
@@ -93,6 +39,36 @@ const projects_all = [
         ]
       },
       {
+        "title": "Project Aperture",
+        "startDate": "2021",
+        "description": "Project Aperture intends to provide an automated platform for the procedure of tagging and labelling the images by use of Image processing and Machine Learning to extract information from the images, using Convolutional Neural Networks and Natural Language Processing to generate labels and similar tags.",
+        "images": [
+          "images/Project-Aperture/Project-Aperture.png",
+          "images/Project-Aperture/1.png",
+          "images/Project-Aperture/2.png",
+          "images/Project-Aperture/3.png",
+          "images/Project-Aperture/4.png",
+          "images/Project-Aperture/5.png",
+          "images/Project-Aperture/6.png",
+          "images/Project-Aperture/7.png",
+        ],
+        "url": "https://github.com/KamaljeetSahoo/Project-Aperture",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-azure-plain-wordmark",
+            "name": "Microsoft Azure"
+          },
+        ]
+      },
+      {
         "title": "April Tag Detector",
         "startDate": "2021",
         "description": "A web-based 36H11 Family April-Tag detector using your webcam",
@@ -106,6 +82,30 @@ const projects_all = [
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
           },
+        ]
+      },
+      {
+        "title": "Text to Handwriting",
+        "startDate": "2021",
+        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "images": [
+          "images/cat.jpeg",
+          "images/cat.jpeg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
         ]
       },
 ]
