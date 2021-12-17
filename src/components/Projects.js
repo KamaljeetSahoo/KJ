@@ -89,10 +89,11 @@ const projects_all = [
         "startDate": "2021",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
-          "images/cat.jpeg",
-          "images/cat.jpeg"
+          "images/Text-to-Handwriting/handwriting_cover.png",
+          "images/Text-to-Handwriting/aA.png",
+          "images/Text-to-Handwriting/result.png"
         ],
-        "url": "",
+        "url": "https://github.com/KamaljeetSahoo/Text-To-Handwriting",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
