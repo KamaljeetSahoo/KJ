@@ -7,6 +7,8 @@ const projects_all = [
         "startDate": "2021",
         "description": "The Omniverse will act as a subsitute to retail shopping. The product is aimed to bridge the gap between the retail shopping experience and virtual one along with its challenges upto a level that hasn't been achieved yet.",
         "images": [
+          "images/Project-Omniverse/7.gif",
+          "images/Project-Omniverse/8.gif",
           "images/Project-Omniverse/1.png",
           "images/Project-Omniverse/2.png",
           "images/Project-Omniverse/3.png",
