@@ -121,6 +121,36 @@ const projects_all = [
           }
         ]
       },
+      {
+        "title": "BackGround Removal",
+        "startDate": "2020",
+        "description": "Implemented an algorithm for background removal around an object in an image using image clustering techniques and Deep CNN models(DeepLabV3 & VGG19).",
+        "images": [
+          "images/BG-Removal/1.gif",
+          "images/BG-Removal/2.png",
+          "images/BG-Removal/3.png",
+          "images/BG-Removal/4.png",
+          "images/BG-Removal/5.png",
+        ],
+        "url": "https://www.linkedin.com/posts/kamaljeet-sahoo-347705134_deeplearning-deeplearningalgorithms-imageprocessing-activity-6731268327248928768-UDx6",
+        "technologies": [
+          {
+            "class": "iconify",
+            "name": "OpenCV",
+            "data": "file-icons:opencv"
+          },
+          {
+            "class": "iconify",
+            "name": "Numpy",
+            "data": "file-icons:numpy"
+          },
+          {
+            "class": "iconify",
+            "name": "ReactJS",
+            "data": "simple-icons:pytorch"
+          },
+        ]
+      },
 ]
 
 const Projects = () => {
