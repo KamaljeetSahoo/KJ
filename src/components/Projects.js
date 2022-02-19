@@ -98,16 +98,26 @@ const projects_all = [
         "url": "https://github.com/KamaljeetSahoo/Text-To-Handwriting",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "iconify",
+            "name": "OpenCV",
+            "data": "file-icons:opencv"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "iconify",
+            "name": "Numpy",
+            "data": "file-icons:numpy"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-react-plain",
+            "name": "ReactJS",
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python",
+          },
+          {
+            "class": "devicon-flask-original",
+            "name": "Flask"
           }
         ]
       },

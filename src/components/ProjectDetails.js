@@ -14,19 +14,35 @@ class ProjectDetails extends Component {
 	  var url = this.props.data.url;
 	  if (this.props.data.technologies) {
 		var tech = technologies.map((icons, i) => {
-			return (
-				<li className="list-inline-item mx-3" key={i}>
-					<span>
-						<div className="text-center">
-							<i className={icons.class} style={{ fontSize: "300%" }}>
-								<p className="text-center" style={{ fontSize: "30%" }}>
+			if (icons.class === 'iconify'){
+				return (
+					<li className="list-inline-item mx-3" key={i}>
+						<span>
+							<div className="text-center">
+								<i className={icons.class} data-icon={icons.data} style={{ fontSize: "300%" }}/>
+								<p className="text-center" style={{ fontSize: "60%", marginTop: "3px" }}>
 									{icons.name}
 								</p>
-							</i>
-						</div>
-					</span>
-				</li>
-			);
+							</div>
+						</span>
+					</li>
+				);
+			}
+			else {
+				return (
+					<li className="list-inline-item mx-3" key={i}>
+						<span>
+							<div className="text-center">
+								<i className={icons.class} style={{ fontSize: "300%" }}>
+									<p className="text-center" style={{ fontSize: "30%" }}>
+										{icons.name}
+									</p>
+								</i>
+							</div>
+						</span>
+					</li>
+				);
+			}
 		});
 		if (this.props.data.images) {
 			var img = images.map((elem, i) => {
