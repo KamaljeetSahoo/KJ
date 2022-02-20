@@ -146,7 +146,7 @@ const projects_all = [
           },
           {
             "class": "iconify",
-            "name": "ReactJS",
+            "name": "PyTorch",
             "data": "simple-icons:pytorch"
           },
         ]
